@@ -13,10 +13,9 @@ class MeraList:
     def _make_array(self,capacity):
        #create c type array (static,referential) with size capacity
        return(capacity*ctypes.py_object)()
-    
-    
-   
-    
+
+
+  
 L = MeraList()
 print(type(L))
 print(L)
